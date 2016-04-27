@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/lv1"
+    android:background="#ffffff"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editcust"
+        android:layout_width="match_parent"
+       android:layout_height="38dp"
+       android:background="@drawable/edittext_add_lead"
+        android:hint="Search.."
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:id="@+id/listViewcus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#000000"
+         >
+
+    </ListView>
+    <Button
+        android:id="@+id/buttoncus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0897D4"
+        android:text="ADD CUSTOMER" 
+        />
+     
+</LinearLayout>

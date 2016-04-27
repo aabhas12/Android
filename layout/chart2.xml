@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+  <com.artfulbits.aiCharts.ChartView
+      android:id="@+id/chartView"
+      android:layout_width="fill_parent"
+      android:layout_height="328dp"
+      chart="@xml/chart"
+      android:background="@android:drawable/alert_light_frame" />
+
+</LinearLayout>
